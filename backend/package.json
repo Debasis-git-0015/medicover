@@ -1,0 +1,25 @@
+{
+  "name": "medicover-hms-backend",
+  "version": "1.0.0",
+  "description": "MediCover Hospital Management System Backend with Doctor Availability Conflict Detection Engine",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "test": "node test/conflictTest.js",
+    "test:conflict": "node test/conflictTest.js"
+  },
+  "keywords": [
+    "hospital",
+    "management",
+    "conflict-detection",
+    "rest-api"
+  ],
+  "author": "MediCover Systems",
+  "license": "ISC",
+  "dependencies": {
+    "docx": "^9.7.1",
+    "dotenv": "^17.4.2",
+    "mongoose": "^9.9.4"
+  }
+}

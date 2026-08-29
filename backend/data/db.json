@@ -1,0 +1,2145 @@
+{
+  "departments": [
+    {
+      "id": "eye",
+      "name": "Ophthalmology (Eye)",
+      "code": "EYE",
+      "head": "Dr. Evelyn Reed",
+      "icon": "👁️",
+      "beds": 23
+    },
+    {
+      "id": "cardio",
+      "name": "Cardiology",
+      "code": "CARD",
+      "head": "Dr. Robert Chen",
+      "icon": "❤️",
+      "beds": 40
+    },
+    {
+      "id": "pedia",
+      "name": "Pediatrics",
+      "code": "PED",
+      "head": "Dr. Anita Desai",
+      "icon": "👶",
+      "beds": 16
+    },
+    {
+      "id": "ortho",
+      "name": "Orthopedics",
+      "code": "ORTH",
+      "head": "Dr. Jonathan Blake",
+      "icon": "🦴",
+      "beds": 18
+    },
+    {
+      "id": "neuro",
+      "name": "Neurology",
+      "code": "NEUR",
+      "head": "Dr. Aris Vance",
+      "icon": "🧠",
+      "beds": 24
+    },
+    {
+      "id": "general",
+      "name": "General Medicine",
+      "code": "GEN",
+      "head": "Dr. Michael Scott",
+      "icon": "🩺",
+      "beds": 25
+    },
+    {
+      "id": "amb",
+      "name": "Ambulance service",
+      "code": "108",
+      "head": "Dr. Satwik",
+      "icon": "🚑",
+      "beds": 7
+    }
+  ],
+  "staff": [
+    {
+      "id": "hod_Dev_15",
+      "name": "Debasis Sukla",
+      "email": "Dev@gmail.com",
+      "password": "150",
+      "role": "hod",
+      "department": "neuro",
+      "designation": "Sc III",
+      "shift": "Morning (08:00 - 16:00)",
+      "phone": "",
+      "avatar": "DS",
+      "status": "active",
+      "joined": "2026-08-29"
+    },
+    {
+      "id": "hod_amb_100",
+      "name": "Dr Satwik",
+      "email": "Stw@gmail.co",
+      "password": "123",
+      "role": "hod",
+      "department": "amb",
+      "designation": "Senior driver V",
+      "shift": "Morning (08:00 - 16:00)",
+      "phone": "",
+      "avatar": "DS",
+      "status": "active",
+      "joined": "2026-08-29"
+    },
+    {
+      "id": "mgr101",
+      "name": "Arthur Sterling",
+      "email": "arthur.sterling@medicover.org",
+      "password": "mgr123",
+      "role": "management",
+      "department": "all",
+      "designation": "Director of Hospital Operations & Logistics",
+      "phone": "+1 (555) 019-9988",
+      "shift": "General (08:30 - 17:30)",
+      "status": "active",
+      "joined": "2020-02-01",
+      "avatar": "AS"
+    },
+    {
+      "id": "admin101",
+      "name": "Sarah Jenkins",
+      "email": "admin.jenkins@medicover.org",
+      "password": "admin123",
+      "role": "admin",
+      "department": "all",
+      "designation": "Chief Hospital Administrator",
+      "phone": "+1 (555) 019-2831",
+      "shift": "General (09:00 - 18:00)",
+      "status": "active",
+      "joined": "2021-03-15",
+      "avatar": "SJ"
+    },
+    {
+      "id": "hod_eye",
+      "name": "Dr. Evelyn Reed",
+      "email": "evelyn.reed@medicover.org",
+      "password": "eye123",
+      "role": "hod",
+      "department": "eye",
+      "designation": "Head of Ophthalmology Department",
+      "phone": "+1 (555) 014-9821",
+      "shift": "Morning (08:00 - 16:00)",
+      "status": "active",
+      "joined": "2019-06-10",
+      "avatar": "ER"
+    },
+    {
+      "id": "hod_cardio",
+      "name": "Dr. Robert Chen",
+      "email": "robert.chen@medicover.org",
+      "password": "cardio123",
+      "role": "hod",
+      "department": "cardio",
+      "designation": "Head of Cardiology Department",
+      "phone": "+1 (555) 018-7732",
+      "shift": "Morning (08:00 - 16:00)",
+      "status": "active",
+      "joined": "2018-01-20",
+      "avatar": "RC"
+    },
+    {
+      "id": "doc_eye1",
+      "altId": "DOC001",
+      "name": "Dr. Alistair Vance",
+      "email": "alistair.v@medicover.org",
+      "password": "doc123",
+      "role": "doctor",
+      "department": "eye",
+      "designation": "Senior Ophthalmic Surgeon",
+      "phone": "+1 (555) 011-3344",
+      "shift": "Morning (08:00 - 16:00)",
+      "status": "active",
+      "joined": "2021-08-14",
+      "avatar": "AV"
+    },
+    {
+      "id": "doc_cardio1",
+      "name": "Dr. Marcus Thorne",
+      "email": "marcus.t@medicover.org",
+      "password": "doc123",
+      "role": "doctor",
+      "department": "cardio",
+      "designation": "Consultant Cardiologist",
+      "phone": "+1 (555) 012-7890",
+      "shift": "Evening (14:00 - 22:00)",
+      "status": "active",
+      "joined": "2020-11-05",
+      "avatar": "MT"
+    },
+    {
+      "id": "doc_pedia1",
+      "name": "Dr. Sophia Lin",
+      "email": "sophia.lin@medicover.org",
+      "password": "doc123",
+      "role": "doctor",
+      "department": "pedia",
+      "designation": "Pediatric Specialist",
+      "phone": "+1 (555) 017-6621",
+      "shift": "Morning (08:00 - 16:00)",
+      "status": "active",
+      "joined": "2022-04-12",
+      "avatar": "SL"
+    },
+    {
+      "id": "nurse_eye1",
+      "name": "Sister Clara Belle",
+      "email": "clara.belle@medicover.org",
+      "password": "nurse123",
+      "role": "nurse",
+      "department": "eye",
+      "designation": "Lead Ophthalmic Ward Nurse",
+      "phone": "+1 (555) 013-4455",
+      "shift": "Morning (07:00 - 15:00)",
+      "status": "active",
+      "joined": "2021-02-18",
+      "avatar": "CB"
+    },
+    {
+      "id": "nurse_cardio1",
+      "name": "Sister Maria Santos",
+      "email": "maria.santos@medicover.org",
+      "password": "nurse123",
+      "role": "nurse",
+      "department": "cardio",
+      "designation": "Cardiac ICU Specialist Nurse",
+      "phone": "+1 (555) 015-8899",
+      "shift": "Night (22:00 - 06:00)",
+      "status": "active",
+      "joined": "2019-09-22",
+      "avatar": "MS"
+    },
+    {
+      "id": "nurse_gen1",
+      "name": "Nurse James Cooper",
+      "email": "james.c@medicover.org",
+      "password": "nurse123",
+      "role": "nurse",
+      "department": "general",
+      "designation": "Staff Care Nurse",
+      "phone": "+1 (555) 019-5566",
+      "shift": "Evening (15:00 - 23:00)",
+      "status": "active",
+      "joined": "2023-01-10",
+      "avatar": "JC"
+    },
+    {
+      "id": "comp_eye1",
+      "name": "Rajesh Patel",
+      "email": "rajesh.patel@medicover.org",
+      "password": "comp123",
+      "role": "compounder",
+      "department": "eye",
+      "designation": "Ophthalmic Compounder & Pharmacist",
+      "phone": "+1 (555) 016-1122",
+      "shift": "Morning (08:00 - 16:00)",
+      "status": "active",
+      "joined": "2020-05-19",
+      "avatar": "RP"
+    },
+    {
+      "id": "comp_main1",
+      "name": "David Kim",
+      "email": "david.kim@medicover.org",
+      "password": "comp123",
+      "role": "compounder",
+      "department": "general",
+      "designation": "Chief Hospital Pharmacist & Dispenser",
+      "phone": "+1 (555) 018-9900",
+      "shift": "General (09:00 - 17:00)",
+      "status": "active",
+      "joined": "2018-10-30",
+      "avatar": "DK"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "APT-7001",
+      "doctorId": "doc_eye1",
+      "doctorName": "Dr. Alistair Vance",
+      "department": "eye",
+      "patientId": "P-1001",
+      "patientName": "Patient A (Eleanor Vance)",
+      "date": "2026-08-29",
+      "startTime": "10:00",
+      "endTime": "10:30",
+      "type": "IOP Glaucoma Review",
+      "status": "Confirmed",
+      "notes": "Slit lamp examination & tonometry check"
+    },
+    {
+      "id": "APT-8133",
+      "doctorId": "doc_eye1",
+      "doctorName": "Dr. Alistair Vance",
+      "department": "eye",
+      "patientId": "P-1723",
+      "patientName": "New Patient",
+      "date": "2026-08-29",
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "type": "Routine Consultation",
+      "status": "Confirmed",
+      "notes": ""
+    }
+  ],
+  "patients": [
+    {
+      "id": "P-1001",
+      "name": "Eleanor Vance",
+      "age": 64,
+      "gender": "Female",
+      "department": "eye",
+      "doctor": "Dr. Alistair Vance",
+      "nurse": "Sister Clara Belle",
+      "bed": "EYE-101",
+      "admissionDate": "2026-08-27",
+      "triage": "Urgent",
+      "diagnosis": "Acute Angle-Closure Glaucoma",
+      "symptoms": "Severe ocular pain, blurred vision, rainbow halos around lights",
+      "vitals": {
+        "bp": "135/88",
+        "pulse": "82 bpm",
+        "spo2": "98%",
+        "temp": "98.6 °F"
+      },
+      "allergies": "Penicillin",
+      "status": "Admitted"
+    },
+    {
+      "id": "P-1002",
+      "name": "Arthur Pendelton",
+      "age": 71,
+      "gender": "Male",
+      "department": "eye",
+      "doctor": "Dr. Alistair Vance",
+      "nurse": "Sister Clara Belle",
+      "bed": null,
+      "admissionDate": "2026-08-28",
+      "triage": "Routine",
+      "diagnosis": "Senile Cataract - Post Phacoemulsification",
+      "symptoms": "Post-op eye redness and lens stabilization check",
+      "vitals": {
+        "bp": "128/80",
+        "pulse": "74 bpm",
+        "spo2": "99%",
+        "temp": "98.4 °F"
+      },
+      "allergies": "None",
+      "status": "Discharged / Outpatient"
+    },
+    {
+      "id": "P-1003",
+      "name": "Michael Henderson",
+      "age": 58,
+      "gender": "Male",
+      "department": "cardio",
+      "doctor": "Dr. Marcus Thorne",
+      "nurse": "Sister Maria Santos",
+      "bed": "CARD-201",
+      "admissionDate": "2026-08-28",
+      "triage": "Emergency",
+      "diagnosis": "Unstable Angina Pectoris / CAD",
+      "symptoms": "Substernal chest tightness radiating to left shoulder",
+      "vitals": {
+        "bp": "158/96",
+        "pulse": "104 bpm",
+        "spo2": "94%",
+        "temp": "99.1 °F"
+      },
+      "allergies": "Aspirin (Mild)",
+      "status": "Critical Care"
+    },
+    {
+      "id": "P-1004",
+      "name": "Lily Zhang",
+      "age": 8,
+      "gender": "Female",
+      "department": "pedia",
+      "doctor": "Dr. Sophia Lin",
+      "nurse": "Nurse James Cooper",
+      "bed": "PED-301",
+      "admissionDate": "2026-08-29",
+      "triage": "Urgent",
+      "diagnosis": "Acute Bronchiolitis with Wheezing",
+      "symptoms": "Persistent coughing, tachypnea, mild intercostal retractions",
+      "vitals": {
+        "bp": "102/66",
+        "pulse": "118 bpm",
+        "spo2": "95%",
+        "temp": "101.2 °F"
+      },
+      "allergies": "None",
+      "status": "Admitted"
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "RX-8801",
+      "patientId": "P-1001",
+      "patientName": "Eleanor Vance",
+      "department": "eye",
+      "doctorName": "Dr. Alistair Vance",
+      "doctorId": "doc_eye1",
+      "timestamp": "2026-08-29 08:30",
+      "medicines": [
+        {
+          "name": "Timolol 0.5% Eye Drops",
+          "dosage": "1 drop",
+          "frequency": "Twice daily",
+          "duration": "7 days",
+          "notes": "Apply in both eyes"
+        },
+        {
+          "name": "Acetazolamide 250mg",
+          "dosage": "1 tablet",
+          "frequency": "Every 8 hours",
+          "duration": "3 days",
+          "notes": "Take after meals"
+        }
+      ],
+      "instructions": "Urgent IOP reduction requested. Monitor pupil response after first dose.",
+      "status": "Dispensed",
+      "dispensedBy": "Rajesh Patel",
+      "dispensedTime": "2026-08-29 09:31"
+    }
+  ],
+  "pharmacyInventory": [
+    {
+      "id": "MED-01",
+      "name": "Timolol Maleate 0.5% Drops",
+      "category": "Ophthalmic",
+      "stock": 45,
+      "unit": "Bottles (5ml)",
+      "minThreshold": 15,
+      "location": "Shelf E-1"
+    },
+    {
+      "id": "MED-02",
+      "name": "Moxifloxacin 0.5% Eye Drops",
+      "category": "Ophthalmic / Antibiotic",
+      "stock": 1108,
+      "unit": "Bottles (5ml)",
+      "minThreshold": 20,
+      "location": "Shelf E-2"
+    },
+    {
+      "id": "MED-03",
+      "name": "Tropicamide 1% Diagnostic Drops",
+      "category": "Ophthalmic / Mydriatic",
+      "stock": 24,
+      "unit": "Bottles (15ml)",
+      "minThreshold": 10,
+      "location": "Shelf E-3"
+    },
+    {
+      "id": "MED-04",
+      "name": "Prednisolone Acetate 1%",
+      "category": "Steroid Drops",
+      "stock": 32,
+      "unit": "Bottles (5ml)",
+      "minThreshold": 15,
+      "location": "Shelf E-4"
+    },
+    {
+      "id": "MED-05",
+      "name": "Acetazolamide 250mg Tablets",
+      "category": "Glaucoma Agent",
+      "stock": 120,
+      "unit": "Tablets",
+      "minThreshold": 50,
+      "location": "Shelf G-2"
+    },
+    {
+      "id": "MED-06",
+      "name": "Atorvastatin 80mg",
+      "category": "Cardiovascular",
+      "stock": 310,
+      "unit": "Tablets",
+      "minThreshold": 100,
+      "location": "Shelf C-1"
+    },
+    {
+      "id": "MED-07",
+      "name": "Metoprolol 50mg Extended Release",
+      "category": "Beta Blocker",
+      "stock": 180,
+      "unit": "Tablets",
+      "minThreshold": 50,
+      "location": "Shelf C-3"
+    },
+    {
+      "id": "MED-08",
+      "name": "Nitroglycerin 0.4mg Sublingual",
+      "category": "Vasodilator",
+      "stock": 56,
+      "unit": "Bottles (25 tabs)",
+      "minThreshold": 15,
+      "location": "Emergency Safe"
+    }
+  ],
+  "beds": [
+    {
+      "id": "EYE-101",
+      "dept": "eye",
+      "room": "Room 1",
+      "status": "occupied",
+      "patientId": "P-1001",
+      "patientName": "Eleanor Vance",
+      "vitalsSummary": "BP 135/88 | SpO2 98%"
+    },
+    {
+      "id": "EYE-102",
+      "dept": "eye",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-103",
+      "dept": "eye",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-104",
+      "dept": "eye",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-105",
+      "dept": "eye",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-106",
+      "dept": "eye",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-107",
+      "dept": "eye",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-108",
+      "dept": "eye",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-109",
+      "dept": "eye",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-110",
+      "dept": "eye",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-111",
+      "dept": "eye",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-112",
+      "dept": "eye",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-113",
+      "dept": "eye",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-114",
+      "dept": "eye",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-115",
+      "dept": "eye",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-116",
+      "dept": "eye",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-117",
+      "dept": "eye",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-118",
+      "dept": "eye",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-119",
+      "dept": "eye",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-120",
+      "dept": "eye",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-121",
+      "dept": "eye",
+      "room": "Room 6",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-122",
+      "dept": "eye",
+      "room": "Room 6",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "EYE-123",
+      "dept": "eye",
+      "room": "Room 6",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-101",
+      "dept": "cardio",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-102",
+      "dept": "cardio",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-103",
+      "dept": "cardio",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-104",
+      "dept": "cardio",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-105",
+      "dept": "cardio",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-106",
+      "dept": "cardio",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-107",
+      "dept": "cardio",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-108",
+      "dept": "cardio",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-109",
+      "dept": "cardio",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-110",
+      "dept": "cardio",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-111",
+      "dept": "cardio",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-112",
+      "dept": "cardio",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-113",
+      "dept": "cardio",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-114",
+      "dept": "cardio",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-115",
+      "dept": "cardio",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-116",
+      "dept": "cardio",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-117",
+      "dept": "cardio",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-118",
+      "dept": "cardio",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-119",
+      "dept": "cardio",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-120",
+      "dept": "cardio",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-121",
+      "dept": "cardio",
+      "room": "Room 6",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-122",
+      "dept": "cardio",
+      "room": "Room 6",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-123",
+      "dept": "cardio",
+      "room": "Room 6",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-124",
+      "dept": "cardio",
+      "room": "Room 6",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-125",
+      "dept": "cardio",
+      "room": "Room 7",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-126",
+      "dept": "cardio",
+      "room": "Room 7",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-127",
+      "dept": "cardio",
+      "room": "Room 7",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-128",
+      "dept": "cardio",
+      "room": "Room 7",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-129",
+      "dept": "cardio",
+      "room": "Room 8",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-130",
+      "dept": "cardio",
+      "room": "Room 8",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-131",
+      "dept": "cardio",
+      "room": "Room 8",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-132",
+      "dept": "cardio",
+      "room": "Room 8",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-133",
+      "dept": "cardio",
+      "room": "Room 9",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-134",
+      "dept": "cardio",
+      "room": "Room 9",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-135",
+      "dept": "cardio",
+      "room": "Room 9",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-136",
+      "dept": "cardio",
+      "room": "Room 9",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-137",
+      "dept": "cardio",
+      "room": "Room 10",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-138",
+      "dept": "cardio",
+      "room": "Room 10",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-139",
+      "dept": "cardio",
+      "room": "Room 10",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "CARD-140",
+      "dept": "cardio",
+      "room": "Room 10",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "PED-101",
+      "dept": "pedia",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "PED-102",
+      "dept": "pedia",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "PED-103",
+      "dept": "pedia",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "PED-104",
+      "dept": "pedia",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "PED-105",
+      "dept": "pedia",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "PED-106",
+      "dept": "pedia",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "PED-107",
+      "dept": "pedia",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "PED-108",
+      "dept": "pedia",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "PED-109",
+      "dept": "pedia",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "PED-110",
+      "dept": "pedia",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "PED-111",
+      "dept": "pedia",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "PED-112",
+      "dept": "pedia",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "PED-113",
+      "dept": "pedia",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "PED-114",
+      "dept": "pedia",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "PED-115",
+      "dept": "pedia",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "PED-116",
+      "dept": "pedia",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-101",
+      "dept": "ortho",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-102",
+      "dept": "ortho",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-103",
+      "dept": "ortho",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-104",
+      "dept": "ortho",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-105",
+      "dept": "ortho",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-106",
+      "dept": "ortho",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-107",
+      "dept": "ortho",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-108",
+      "dept": "ortho",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-109",
+      "dept": "ortho",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-110",
+      "dept": "ortho",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-111",
+      "dept": "ortho",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-112",
+      "dept": "ortho",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-113",
+      "dept": "ortho",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-114",
+      "dept": "ortho",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-115",
+      "dept": "ortho",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-116",
+      "dept": "ortho",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-117",
+      "dept": "ortho",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "ORTH-118",
+      "dept": "ortho",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-101",
+      "dept": "neuro",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-102",
+      "dept": "neuro",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-103",
+      "dept": "neuro",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-104",
+      "dept": "neuro",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-105",
+      "dept": "neuro",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-106",
+      "dept": "neuro",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-107",
+      "dept": "neuro",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-108",
+      "dept": "neuro",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-109",
+      "dept": "neuro",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-110",
+      "dept": "neuro",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-111",
+      "dept": "neuro",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-112",
+      "dept": "neuro",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-113",
+      "dept": "neuro",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-114",
+      "dept": "neuro",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-115",
+      "dept": "neuro",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-116",
+      "dept": "neuro",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-117",
+      "dept": "neuro",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-118",
+      "dept": "neuro",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-119",
+      "dept": "neuro",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-120",
+      "dept": "neuro",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-121",
+      "dept": "neuro",
+      "room": "Room 6",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-122",
+      "dept": "neuro",
+      "room": "Room 6",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-123",
+      "dept": "neuro",
+      "room": "Room 6",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "NEUR-124",
+      "dept": "neuro",
+      "room": "Room 6",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-101",
+      "dept": "general",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-102",
+      "dept": "general",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-103",
+      "dept": "general",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-104",
+      "dept": "general",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-105",
+      "dept": "general",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-106",
+      "dept": "general",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-107",
+      "dept": "general",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-108",
+      "dept": "general",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-109",
+      "dept": "general",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-110",
+      "dept": "general",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-111",
+      "dept": "general",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-112",
+      "dept": "general",
+      "room": "Room 3",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-113",
+      "dept": "general",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-114",
+      "dept": "general",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-115",
+      "dept": "general",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-116",
+      "dept": "general",
+      "room": "Room 4",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-117",
+      "dept": "general",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-118",
+      "dept": "general",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-119",
+      "dept": "general",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-120",
+      "dept": "general",
+      "room": "Room 5",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-121",
+      "dept": "general",
+      "room": "Room 6",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-122",
+      "dept": "general",
+      "room": "Room 6",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-123",
+      "dept": "general",
+      "room": "Room 6",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-124",
+      "dept": "general",
+      "room": "Room 6",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "GEN-125",
+      "dept": "general",
+      "room": "Room 7",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "108-101",
+      "dept": "amb",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "108-102",
+      "dept": "amb",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "108-103",
+      "dept": "amb",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "108-104",
+      "dept": "amb",
+      "room": "Room 1",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "108-105",
+      "dept": "amb",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "108-106",
+      "dept": "amb",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    },
+    {
+      "id": "108-107",
+      "dept": "amb",
+      "room": "Room 2",
+      "status": "available",
+      "patientId": null,
+      "patientName": null,
+      "vitalsSummary": "Sanitized & Ready for Admission"
+    }
+  ],
+  "chatChannels": [
+    {
+      "id": "chan_eye",
+      "name": "Eye Ward Team",
+      "type": "channel",
+      "icon": "👁️",
+      "desc": "Ophthalmic doctors, ward nurses & eye dispensary"
+    },
+    {
+      "id": "chan_icu",
+      "name": "ICU & Emergency",
+      "type": "channel",
+      "icon": "🚨",
+      "desc": "Critical care rapid response dispatch"
+    },
+    {
+      "id": "chan_pharmacy",
+      "name": "Pharmacy Dispatch",
+      "type": "channel",
+      "icon": "💊",
+      "desc": "Prescription coordination & medicine stock inquiries"
+    },
+    {
+      "id": "chan_general",
+      "name": "Hospital Staff Lounge",
+      "type": "channel",
+      "icon": "🏥",
+      "desc": "Hospital-wide announcements & staff chat"
+    },
+    {
+      "id": "chan_amb",
+      "name": "Ambulance service Team",
+      "type": "channel",
+      "icon": "🚑",
+      "desc": "Ambulance service clinical staff & ward discussion"
+    }
+  ],
+  "chatMessages": [
+    {
+      "id": "m1",
+      "channelId": "chan_eye",
+      "senderId": "doc_eye1",
+      "senderName": "Dr. Alistair Vance",
+      "senderRole": "Doctor (Eye)",
+      "patientRef": "P-1001 (Eleanor Vance)",
+      "text": "Sister Clara, please check Eleanor’s IOP in 30 minutes after the Timolol administration.",
+      "timestamp": "08:35 AM"
+    },
+    {
+      "id": "msg_1787975720917",
+      "channelId": "chan_eye",
+      "senderId": "doc_eye1",
+      "senderName": "Dr. Alistair Vance",
+      "senderRole": "Doctor (EYE)",
+      "patientRef": null,
+      "text": "hy",
+      "timestamp": "9:25 AM"
+    },
+    {
+      "id": "msg_1787975722136",
+      "channelId": "chan_eye",
+      "senderId": "nurse_eye1",
+      "senderName": "Sister Clara Belle",
+      "senderRole": "Nurse (Eye)",
+      "patientRef": null,
+      "text": "Understood Dr. Alistair Vance. Patient observations updated and vital records logged in the system.",
+      "timestamp": "9:25 AM"
+    },
+    {
+      "id": "msg_1787975926744",
+      "channelId": "chan_eye",
+      "senderId": "admin101",
+      "senderName": "Sarah Jenkins",
+      "senderRole": "Admin (ALL)",
+      "patientRef": null,
+      "text": "can you give the js code",
+      "timestamp": "9:28 AM"
+    },
+    {
+      "id": "msg_1787976832342",
+      "channelId": "chan_eye",
+      "senderId": "nurse_eye1",
+      "senderName": "Sister Clara Belle",
+      "senderRole": "Nurse (EYE)",
+      "patientRef": null,
+      "text": "teri to ham bio walw hain",
+      "timestamp": "9:43 AM"
+    },
+    {
+      "id": "msg_1787976833559",
+      "channelId": "chan_eye",
+      "senderId": "comp_eye1",
+      "senderName": "Rajesh Patel",
+      "senderRole": "Compounder (Eye)",
+      "patientRef": null,
+      "text": "Prescription received Sister Clara. Preparing dosage and eye drops right now for ward dispatch.",
+      "timestamp": "9:43 AM"
+    },
+    {
+      "id": "msg_1787978572163",
+      "channelId": "chan_eye",
+      "senderId": "doc_eye1",
+      "senderName": "Dr. Alistair Vance",
+      "senderRole": "Doctor (EYE)",
+      "patientRef": null,
+      "text": "Send an ambulance satwik",
+      "timestamp": "10:12 AM"
+    },
+    {
+      "id": "msg_1787978573374",
+      "channelId": "chan_eye",
+      "senderId": "nurse_eye1",
+      "senderName": "Sister Clara Belle",
+      "senderRole": "Nurse (Eye)",
+      "patientRef": null,
+      "text": "Understood Dr. Alistair Vance. Patient observations updated and vital records logged in the system.",
+      "timestamp": "10:12 AM"
+    }
+  ],
+  "drugOrders": [
+    {
+      "id": "PO-8769",
+      "drugName": "Moxifloxacin 0.5% Eye Drops",
+      "category": "Ophthalmic / Antibiotic",
+      "quantity": 100,
+      "unitPrice": 15,
+      "totalCost": 1500,
+      "supplier": "Alcon Global Pharma",
+      "orderedBy": "Arthur Sterling (Management)",
+      "orderDate": "2026-08-29",
+      "status": "Ordered"
+    },
+    {
+      "id": "PO-8959",
+      "drugName": "Epinephrine Auto-Injectors",
+      "category": "Emergency",
+      "quantity": 50,
+      "unitPrice": 35,
+      "totalCost": 1750,
+      "supplier": "Mylan Specialty",
+      "orderedBy": "Arthur Sterling (Management)",
+      "orderDate": "2026-08-29",
+      "status": "Ordered"
+    },
+    {
+      "id": "PO-9001",
+      "drugName": "Moxifloxacin 0.5% Eye Drops",
+      "category": "Ophthalmic / Antibiotic",
+      "quantity": 250,
+      "unitPrice": 12,
+      "totalCost": 3000,
+      "supplier": "Alcon Pharma Global",
+      "orderedBy": "Arthur Sterling (Management)",
+      "orderDate": "2026-08-28",
+      "status": "Delivered"
+    },
+    {
+      "id": "PO-9002",
+      "drugName": "Nitroglycerin 0.4mg Sublingual",
+      "category": "Vasodilator / Emergency",
+      "quantity": 100,
+      "unitPrice": 24,
+      "totalCost": 2400,
+      "supplier": "Pfizer Health Supplies",
+      "orderedBy": "Arthur Sterling (Management)",
+      "orderDate": "2026-08-29",
+      "status": "Ordered"
+    }
+  ],
+  "distributions": [
+    {
+      "id": "DIST-3001",
+      "drugName": "Timolol Maleate 0.5% Drops",
+      "targetDepartment": "eye",
+      "quantity": 30,
+      "batchNumber": "BATCH-EYE-882",
+      "dispatchedBy": "Arthur Sterling (Management)",
+      "timestamp": "2026-08-29 09:15",
+      "status": "Received"
+    },
+    {
+      "id": "DIST-3002",
+      "drugName": "Atorvastatin 80mg",
+      "targetDepartment": "cardio",
+      "quantity": 100,
+      "batchNumber": "BATCH-CARD-119",
+      "dispatchedBy": "Arthur Sterling (Management)",
+      "timestamp": "2026-08-29 09:30",
+      "status": "Dispatched"
+    }
+  ],
+  "costReports": [
+    {
+      "id": "REP-2026-W05-956",
+      "weekRange": "Aug 22 - Aug 28, 2026",
+      "totalCost": 14250,
+      "breakdown": {
+        "bedExpansionCost": 4500,
+        "drugProcurementCost": 7800,
+        "distributionOverhead": 1950
+      },
+      "submittedBy": "Arthur Sterling (Director of Management)",
+      "timestamp": "2026-08-29 05:41",
+      "status": "Submitted to Admin",
+      "adminNotes": "Awaiting Admin Review"
+    },
+    {
+      "id": "REP-2026-W05-313",
+      "weekRange": "Aug 22 - Aug 28, 2026",
+      "totalCost": 12900,
+      "breakdown": {
+        "bedExpansionCost": 3500,
+        "drugProcurementCost": 8200,
+        "distributionOverhead": 1200
+      },
+      "submittedBy": "Arthur Sterling (Director of Management)",
+      "timestamp": "2026-08-29 05:38",
+      "status": "Submitted to Admin",
+      "adminNotes": "Awaiting Admin Review"
+    },
+    {
+      "id": "REP-2026-W34",
+      "weekRange": "Aug 22 - Aug 28, 2026",
+      "totalCost": 14650,
+      "breakdown": {
+        "bedExpansionCost": 5400,
+        "drugProcurementCost": 6800,
+        "distributionOverhead": 2450
+      },
+      "submittedBy": "Arthur Sterling (Management)",
+      "timestamp": "2026-08-28 17:00",
+      "status": "Reviewed by Admin",
+      "adminNotes": "Approved by Sarah Jenkins (Admin)"
+    }
+  ],
+  "requisitions": [
+    {
+      "id": "REQ-5860",
+      "department": "eye",
+      "hodName": "Dr. Evelyn Reed",
+      "hodId": "hod_eye",
+      "requestType": "Urgent Drug Supplies",
+      "items": "Tropicamide 1%",
+      "quantity": 30,
+      "priority": "Urgent",
+      "notes": "",
+      "status": "Approved & Fulfilled",
+      "timestamp": "2026-08-29 05:38",
+      "fulfilledBy": "Arthur Sterling (Management)",
+      "fulfilledDate": "2026-08-29 05:40"
+    },
+    {
+      "id": "REQ-5001",
+      "department": "eye",
+      "hodName": "Dr. Evelyn Reed",
+      "hodId": "hod_eye",
+      "requestType": "Urgent Drug Supplies",
+      "items": "Timolol 0.5% Drops & Tropicamide 1%",
+      "quantity": 25,
+      "priority": "Urgent",
+      "notes": "Post-op cataract surgery queue increased for Monday morning.",
+      "status": "Pending Review",
+      "timestamp": "2026-08-29 08:45",
+      "fulfilledBy": null,
+      "fulfilledDate": null
+    },
+    {
+      "id": "REQ-5002",
+      "department": "amb",
+      "hodName": "Dr Satwik",
+      "hodId": "hod_amb_100",
+      "requestType": "Additional Beds",
+      "items": "Emergency Ambulance Stretchers & Mobile Telemetry Beds",
+      "quantity": 2,
+      "priority": "Critical Emergency",
+      "notes": "Emergency response fleet expansion requirement.",
+      "status": "Pending Review",
+      "timestamp": "2026-08-29 09:20",
+      "fulfilledBy": null,
+      "fulfilledDate": null
+    }
+  ]
+}

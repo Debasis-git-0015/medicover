@@ -1,0 +1,155 @@
+/* ==========================================================================
+   APPOINTMENT SCHEDULER & CONFLICT VISUALIZER STYLES
+   ========================================================================== */
+
+.conflict-banner {
+  background: #fff1f2;
+  border: 1.5px solid #fecdd3;
+  border-left: 4px solid var(--accent-rose);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.25rem;
+  animation: slideDown 0.3s ease-in-out;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.conflict-banner-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 800;
+  color: #9f1239;
+  font-size: 0.95rem;
+  margin-bottom: 0.35rem;
+}
+
+.conflict-banner-body {
+  font-size: 0.85rem;
+  color: #881337;
+  line-height: 1.5;
+}
+
+.conflict-formula-badge {
+  display: inline-block;
+  background: #ffe4e6;
+  border: 1px solid #fda4af;
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-sm);
+  font-family: monospace;
+  font-size: 0.78rem;
+  color: #9f1239;
+  margin-top: 0.4rem;
+}
+
+/* Appointment Timeline Cards */
+.timeline-slot-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.appointment-card {
+  background: var(--bg-app);
+  border: 1.5px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 0.9rem 1.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: var(--transition-fast);
+}
+
+.appointment-card:hover {
+  background: var(--primary-50);
+  border-color: var(--primary-300);
+}
+
+.appointment-time-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: var(--primary-800);
+  background: #ffffff;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--primary-200);
+}
+
+.appointment-patient-meta h4 {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.appointment-patient-meta p {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* Conflict Sandbox Tester Card */
+.sandbox-card {
+  background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+  border: 1.5px solid #bae6fd;
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.sandbox-title {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--primary-900);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.35rem;
+}
+
+.sandbox-desc {
+  font-size: 0.8rem;
+  color: var(--primary-800);
+  margin-bottom: 1rem;
+}
+
+.sandbox-quick-test-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.test-btn {
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius-md);
+  font-size: 0.78rem;
+  font-weight: 700;
+  transition: var(--transition-fast);
+  border: 1.5px solid transparent;
+}
+
+.test-btn.btn-test-conflict {
+  background: #ffe4e6;
+  color: #9f1239;
+  border-color: #fecdd3;
+}
+
+.test-btn.btn-test-conflict:hover {
+  background: #fecdd3;
+  color: #881337;
+}
+
+.test-btn.btn-test-valid {
+  background: #d1fae5;
+  color: #065f46;
+  border-color: #a7f3d0;
+}
+
+.test-btn.btn-test-valid:hover {
+  background: #a7f3d0;
+  color: #047857;
+}

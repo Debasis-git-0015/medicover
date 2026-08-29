@@ -1,0 +1,15 @@
+{
+  "name": "medicover-hms",
+  "version": "1.0.0",
+  "description": "MediCover Hospital Management System with Dedicated Frontend, Backend, and Doctor Availability Conflict Engine",
+  "scripts": {
+    "dev": "node backend/server.js",
+    "start": "node backend/server.js",
+    "server": "node backend/server.js",
+    "test": "node backend/test/conflictTest.js",
+    "test:conflict": "node backend/test/conflictTest.js"
+  },
+  "keywords": ["hospital", "management", "conflict-engine", "healthcare"],
+  "author": "MediCover Systems",
+  "license": "ISC"
+}

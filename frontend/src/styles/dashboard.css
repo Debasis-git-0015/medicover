@@ -1,0 +1,429 @@
+/* ==========================================================================
+   DASHBOARD STYLES - Modern Light Theme Medical Components
+   ========================================================================== */
+
+.dashboard-layout {
+  display: flex;
+  min-height: calc(100vh - var(--header-height));
+}
+
+.dashboard-sidebar {
+  width: 260px;
+  background: var(--bg-surface);
+  border-right: 1px solid var(--border-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+  flex-shrink: 0;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.sidebar-section-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-subtle);
+  padding: 0.75rem 0.75rem 0.35rem;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.7rem 0.9rem;
+  border-radius: var(--radius-md);
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  font-weight: 600;
+  transition: var(--transition-fast);
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  width: 100%;
+  text-align: left;
+}
+
+.nav-link:hover {
+  background: var(--primary-50);
+  color: var(--primary-700);
+}
+
+.nav-link.active {
+  background: linear-gradient(135deg, var(--primary-50), var(--primary-100));
+  color: var(--primary-800);
+  border-left: 3px solid var(--primary-600);
+  font-weight: 700;
+}
+
+.nav-link .nav-icon {
+  font-size: 1.1rem;
+  width: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dept-banner {
+  background: linear-gradient(135deg, #0284c7, #2563eb);
+  color: #fff;
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.75rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 10px 20px -5px rgba(2, 132, 199, 0.3);
+}
+
+.dept-banner-info h2 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dept-banner-info p {
+  font-size: 0.85rem;
+  color: #e0f2fe;
+  margin-top: 0.25rem;
+}
+
+.dept-banner-badge {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  padding: 0.4rem 0.9rem;
+  border-radius: var(--radius-full);
+  font-size: 0.78rem;
+  font-weight: 700;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.dashboard-main {
+  flex: 1;
+  padding: 1.75rem 2rem;
+  overflow-y: auto;
+  background: var(--bg-app);
+}
+
+.dashboard-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.75rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.header-title-group h1 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--text-main);
+  letter-spacing: -0.02em;
+}
+
+.header-title-group p {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-top: 0.15rem;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 1.75rem;
+}
+
+.metric-card {
+  background: var(--bg-surface);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-xs);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  overflow: hidden;
+  transition: var(--transition-normal);
+}
+
+.metric-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary-200);
+}
+
+.metric-icon-wrap {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  flex-shrink: 0;
+}
+
+.metric-icon-wrap.blue { background: var(--primary-50); color: var(--primary-600); }
+.metric-icon-wrap.emerald { background: var(--accent-emerald-light); color: var(--accent-emerald); }
+.metric-icon-wrap.amber { background: var(--accent-amber-light); color: var(--accent-amber); }
+.metric-icon-wrap.rose { background: var(--accent-rose-light); color: var(--accent-rose); }
+.metric-icon-wrap.indigo { background: var(--accent-indigo-light); color: var(--accent-indigo); }
+
+.metric-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.metric-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.metric-value {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1.2;
+}
+
+.metric-sub {
+  font-size: 0.72rem;
+  color: var(--text-subtle);
+  margin-top: 0.2rem;
+}
+
+.dept-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+}
+
+.dept-pill {
+  padding: 0.45rem 1rem;
+  border-radius: var(--radius-full);
+  background: var(--bg-surface);
+  border: 1.5px solid var(--border-light);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: var(--transition-fast);
+}
+
+.dept-pill:hover {
+  border-color: var(--primary-400);
+  color: var(--primary-700);
+}
+
+.dept-pill.active {
+  background: var(--primary-600);
+  border-color: var(--primary-600);
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(2, 132, 199, 0.25);
+}
+
+.role-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.role-tag.admin { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
+.role-tag.hod { background: #e0f2fe; color: #0369a1; border: 1px solid #bae6fd; }
+.role-tag.doctor { background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; }
+.role-tag.nurse { background: #fdf4ff; color: #a21caf; border: 1px solid #f5d0fe; }
+.role-tag.compounder { background: #fffbeb; color: #b45309; border: 1px solid #fde68a; }
+
+.triage-emergency { background: #ffe4e6; color: #e11d48; border: 1px solid #fecdd3; }
+.triage-urgent { background: #fef3c7; color: #d97706; border: 1px solid #fde68a; }
+.triage-routine { background: #ecfdf5; color: #059669; border: 1px solid #a7f3d0; }
+
+.grid-2-col {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 1.5rem;
+}
+
+.patient-queue-item {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: var(--transition-fast);
+  cursor: pointer;
+}
+
+.patient-queue-item:hover {
+  border-color: var(--primary-400);
+  background: var(--primary-50);
+  transform: translateX(3px);
+}
+
+.patient-queue-item.active {
+  border-color: var(--primary-600);
+  background: var(--primary-50);
+  border-left: 4px solid var(--primary-600);
+}
+
+.patient-info-left {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.patient-avatar-badge {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--primary-100);
+  color: var(--primary-800);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.patient-meta h4 {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.patient-meta p {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.ward-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 1rem;
+}
+
+.bed-card {
+  background: var(--bg-surface);
+  border-radius: var(--radius-lg);
+  border: 1.5px solid var(--border-light);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.75rem;
+  transition: var(--transition-fast);
+}
+
+.bed-card.occupied { border-color: #93c5fd; background: #f0f9ff; }
+.bed-card.critical { border-color: #fca5a5; background: #fff1f2; }
+.bed-card.available { border-color: #86efac; background: #f0fdf4; }
+
+.bed-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bed-number {
+  font-size: 0.88rem;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.bed-body .bed-patient-name {
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 0.2rem;
+}
+
+.bed-body .bed-patient-detail {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.prescription-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.prescription-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 0.85rem;
+}
+
+.rx-doctor-tag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary-700);
+}
+
+.rx-med-list {
+  background: var(--bg-app);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1rem;
+  margin: 0.75rem 0;
+  font-size: 0.82rem;
+}
+
+.rx-med-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.35rem 0;
+  border-bottom: 1px dashed var(--border-light);
+}
+
+.rx-med-item:last-child {
+  border-bottom: none;
+}
+
+.stock-warning {
+  color: #e11d48;
+  background: #ffe4e6;
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .dashboard-layout { flex-direction: column; }
+  .dashboard-sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border-light); }
+  .sidebar-nav { flex-direction: row; overflow-x: auto; }
+  .grid-2-col { grid-template-columns: 1fr; }
+}
