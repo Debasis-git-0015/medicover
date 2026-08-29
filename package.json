@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "MediCover Hospital Management System with Dedicated Frontend, Backend, and Doctor Availability Conflict Engine",
   "scripts": {
-    "dev": "node backend/server.js",
+    "build": "npm --prefix backend install && npm --prefix frontend install && npm --prefix frontend run build",
     "start": "node backend/server.js",
-    "server": "node backend/server.js",
+    "dev:backend": "node --watch backend/server.js",
+    "dev:frontend": "npm --prefix frontend run dev",
     "test": "node backend/test/conflictTest.js",
     "test:conflict": "node backend/test/conflictTest.js"
   },
